@@ -105,7 +105,7 @@ def search_recipe(
 
 from fastapi import FastAPI
 
-app = FastAPI()
+
 
 @app.get("/")
 def home():
